@@ -1,0 +1,7 @@
+(8) PythonRDD[14] at RDD at PythonRDD.scala:59 []
+ |  MapPartitionsRDD[5] at mapPartitions at PythonRDD.scala:197 []
+ |  ShuffledRDD[4] at partitionBy at DirectMethodHandleAccessor.java:103 []
+ +-(8) PairwiseRDD[3] at reduceByKey at d:\spark-wordcount\spark-wordcount\src\wordcount_pyspark.py:63 []
+    |  PythonRDD[2] at reduceByKey at d:\spark-wordcount\spark-wordcount\src\wordcount_pyspark.py:63 []
+    |  data/bigdata.txt MapPartitionsRDD[1] at textFile at DirectMethodHandleAccessor.java:103 []
+    |  data/bigdata.txt HadoopRDD[0] at textFile at DirectMethodHandleAccessor.java:103 []

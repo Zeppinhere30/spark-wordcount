@@ -1,0 +1,26 @@
+{
+  "machine": {
+    "os": "Windows 11",
+    "cpu_cores": 8,
+    "ram_gb": 7.3,
+    "python": "3.12.10",
+    "spark": "4.2.0"
+  },
+  "default_parallelism": 8,
+  "input": "data/bigdata.txt",
+  "input_lines": 100000,
+  "input_mb": 10.4,
+  "python_time_s": 0.5208614000002854,
+  "results_match_python": true,
+  "breakdown": {
+    "partitions": 1,
+    "read_map_s": 1.966796799999429,
+    "reduce_sort_s": 1.7974251999985427,
+    "total_sortby_s": 3.7642219999979716,
+    "total_takeordered_s": 3.743454599985853
+  },
+  "scaling_partitions": 8,
+  "spark_local1_s": 3.8161621000035666,
+  "spark_best_all_cores_s": 3.8927,
+  "spark_best_partitions": 1
+}

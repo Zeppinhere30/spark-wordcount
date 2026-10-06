@@ -1,0 +1,65 @@
+{
+  "partitions": 8,
+  "jobs": [
+    {
+      "job_id": 0,
+      "status": "SUCCEEDED",
+      "stages": [
+        {
+          "stage_id": 0,
+          "name": "reduceByKey at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:63",
+          "num_tasks": 8,
+          "completed_tasks": 8
+        },
+        {
+          "stage_id": 1,
+          "name": "sortBy at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:66",
+          "num_tasks": 8,
+          "completed_tasks": 8
+        }
+      ]
+    },
+    {
+      "job_id": 1,
+      "status": "SUCCEEDED",
+      "stages": [
+        {
+          "stage_id": 2,
+          "name": "reduceByKey at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:63",
+          "num_tasks": 8,
+          "completed_tasks": 0
+        },
+        {
+          "stage_id": 3,
+          "name": "sortBy at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:66",
+          "num_tasks": 8,
+          "completed_tasks": 8
+        }
+      ]
+    },
+    {
+      "job_id": 2,
+      "status": "SUCCEEDED",
+      "stages": [
+        {
+          "stage_id": 4,
+          "name": "reduceByKey at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:63",
+          "num_tasks": 8,
+          "completed_tasks": 0
+        },
+        {
+          "stage_id": 5,
+          "name": "sortBy at d:\\spark-wordcount\\spark-wordcount\\src\\wordcount_pyspark.py:66",
+          "num_tasks": 8,
+          "completed_tasks": 8
+        },
+        {
+          "stage_id": 6,
+          "name": "runJob at PythonRDD.scala:218",
+          "num_tasks": 1,
+          "completed_tasks": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lines": 100000,
+  "partitions": 8,
+  "elapsed_s": 37.52331469999626,
+  "master": "local[*]",
+  "machine": {
+    "os": "Windows 11",
+    "cpu_cores": 8,
+    "ram_gb": 7.3,
+    "python": "3.12.10",
+    "spark": "4.2.0"
+  }
+}
